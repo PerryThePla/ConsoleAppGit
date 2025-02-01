@@ -7,6 +7,7 @@
             Console.WriteLine("Hello, World!");
             Dadi dadi = new Dadi();
             Console.WriteLine(dadi.Lanciadado());
+            Console.WriteLine(dadi.Lanciadado());
             Console.ReadKey();
         }
     }
