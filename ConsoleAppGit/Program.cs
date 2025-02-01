@@ -5,7 +5,9 @@
         static void Main(string[] args)
         {
             Console.WriteLine("Hello, World!");
-            //gino gino gino gino
+            Dadi dadi = new Dadi();
+            Console.WriteLine(dadi.Lanciadado());
+            Console.ReadKey();
         }
     }
 }
